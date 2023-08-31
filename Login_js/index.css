@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+input{
+    display: block;
+    outline: none;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div{
+    width: 90%;
+    max-width: 20rem;
+    height: 22pc;
+    border: 1.5px solid #228cdb;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+.id,.passcode{
+    padding: 7px;
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 5px;
+    border: 1.5px solid #228cdb;
+}
+.btn{
+    padding: 13px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+    border: none;
+    background-color: #1e7ec7;
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn:hover{
+    background-color: #095086;
+    transform: scale(1.0);
+}
+h5{
+    color: red;
+}
+span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 15px;
+}
+a{
+    text-decoration: none;
+    color: #1e7ec7 ;
+}
+.sec{
+    margin-left: 5%;
+}
+@media screen and (max-width:320px) {
+    div{
+        width: 90%;
+        margin-left: 50px;
+    }
+    .btn{
+        padding: 5px;
+        margin-left: 17%;
+    }
+}
+

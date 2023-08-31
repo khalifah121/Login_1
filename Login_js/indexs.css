@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    border: 1px solid #228cdb;
+    width: 100%;
+    max-width: 25rem;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 15px;
+    height: 35pc;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input{
+    margin-top: 20px;
+    outline: none;
+}
+.mail,.User_id,.passcode,.c_passcode{
+    padding: 7px;
+    width: 90%;
+    margin-top: 25px;
+    margin-left: 5px;
+    border: 1.5px solid #228cdb;
+}
+.gen_radio{
+    display: flex;
+    gap: 5rem;
+    margin: 15px 40px;
+}
+.sub_radio,.sub1_radio{
+    display: block;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 7px;
+}
+.radio1,.radio2{
+    margin-left: 10px;
+}
+.btn{
+    padding: 13px;
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 5px;
+    border: none;
+    background-color: #1e7ec7;
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 48px;
+}
+a{
+    text-decoration: none;
+    color: #1e7ec7 ;
+}
+.error1,.error2,.error3,.error4{
+    color: red;
+    margin-top: 2px;
+}
+h3{ 
+    /* display: none; */
+    text-align: center;
+    color: red;
+}
